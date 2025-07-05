@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Homemade+Apple&family=Monoton&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&family=Pacifico&family=Vast+Shadow&display=swap");
+@import "tailwindcss";
+
+:root {
+  --color-primary: #5f6fff;
+}
+/* bg-[var(--color-primary)] */
+::-webkit-scrollbar {
+  @apply hidden;
+}
+* {
+  font-family: "Outfit", sans-serif;
+}
