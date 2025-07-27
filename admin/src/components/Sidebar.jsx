@@ -21,7 +21,7 @@ const Sidebar = () => {
             }
             to={"/admin-dashboard"}
           >
-            <img src={assets.home_icon} alt="" />
+            <img src={assets.home_icon} alt="" className="w-5 h-5 shrink-0" />
             <p className="hidden md:block">Dashboard</p>
           </NavLink>
           <NavLink
@@ -34,7 +34,11 @@ const Sidebar = () => {
             }
             to={"/all-appointments"}
           >
-            <img src={assets.appointment_icon} alt="" />
+            <img
+              src={assets.appointment_icon}
+              alt=""
+              className="w-5 h-5 shrink-0"
+            />
             <p className="hidden md:block">Appointments</p>
           </NavLink>
           <NavLink
@@ -47,7 +51,7 @@ const Sidebar = () => {
             }
             to={"/add-doctor"}
           >
-            <img src={assets.add_icon} alt="" />
+            <img src={assets.add_icon} alt="" className="w-5 h-5 shrink-0" />
             <p className="hidden md:block">Add Doctor</p>
           </NavLink>
           <NavLink
@@ -60,7 +64,7 @@ const Sidebar = () => {
             }
             to={"/doctor-list"}
           >
-            <img src={assets.people_icon} alt="" />
+            <img src={assets.people_icon} alt="" className="w-5 h-5 shrink-0" />
             <p className="hidden md:block">Doctors List</p>
           </NavLink>
         </ul>
@@ -78,7 +82,7 @@ const Sidebar = () => {
             }
             to={"/doctor-dashboard"}
           >
-            <img src={assets.home_icon} alt="" />
+            <img src={assets.home_icon} alt="" className="w-5 h-5 shrink-0" />
             <p className="hidden md:block">Dashboard</p>
           </NavLink>
           <NavLink
@@ -91,7 +95,11 @@ const Sidebar = () => {
             }
             to={"/doctor-appointments"}
           >
-            <img src={assets.appointment_icon} alt="" />
+            <img
+              src={assets.appointment_icon}
+              alt=""
+              className="w-5 h-5 shrink-0"
+            />
             <p className="hidden md:block">Appointments</p>
           </NavLink>
           <NavLink
@@ -104,7 +112,7 @@ const Sidebar = () => {
             }
             to={"/doctor-profile"}
           >
-            <img src={assets.people_icon} alt="" />
+            <img src={assets.people_icon} alt="" className="w-5 h-5 shrink-0" />
             <p className="hidden md:block">Profile</p>
           </NavLink>
         </ul>
